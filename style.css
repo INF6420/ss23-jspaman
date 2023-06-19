@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #88809f;
+}
+
+#heading {
+    background-color: #6e69ff;
+    border: solid 3px #4a4a4a;
+    border-radius: 13px;
+    margin: 20px 20px 0px 20px;
+    padding : 20px;
+    text-align: center;
+}
+
+h1.navtitle {
+    font-size: 40px;
+}
+
+#contentbox {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 20px 0px 0px;
+}
+
+#genrebox {
+    background-color: #6e69ff;
+    border: solid 3px #4a4a4a;
+    border-radius: 13px;
+    margin: 0px 0px 0px 20px;
+    padding: 20px;
+}
+
+#genrelist {
+    list-style-type: none;
+    font-size: 25px;
+    line-height: 120%;
+}
+
+li.genre {
+    background-color: #928eff;
+    font-style: italic;
+    border: solid 2px black;
+    margin: 5px -20px 0px 0px;
+    padding: 13px;
+}
+
+li.navlinks {
+   display: inline-block;
+   font-size: 20px;
+}
+
+a {
+    color: #b8b8b8;
+    text-decoration: none;
+}
+
+a:visited {
+/* */
+}
+
+#reviewbox {
+    text-align: center;
+}
+
+table {
+    width: 50%;
+}
+
+td {
+    width: 50%;
+}
+
+table a {
+    width: 50%;
+}
+
+div.contactform {
+
+}
+
+#guidesbox {
+    text-align: center;
+}
+
+#guidesbox a {
+    
+}
