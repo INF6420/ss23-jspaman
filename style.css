@@ -5,11 +5,11 @@
 }
 
 body {
-    background-color: #88809f;
+    background-color: #fff4ee;
 }
 
 #heading {
-    background-color: #6e69ff;
+    background-color: #db814d;
     border: solid 3px #4a4a4a;
     border-radius: 13px;
     margin: 20px 20px 0px 20px;
@@ -28,11 +28,11 @@ h1.navtitle {
 }
 
 #genrebox {
-    background-color: #6e69ff;
+    background-color: #db814d;
     border: solid 3px #4a4a4a;
     border-radius: 13px;
-    margin: 0px 0px 0px 20px;
-    padding: 20px;
+    margin: 0 0 0 2%;
+    padding: 2%;
 }
 
 #genrelist {
@@ -42,7 +42,7 @@ h1.navtitle {
 }
 
 li.genre {
-    background-color: #928eff;
+    background-color: #e86e27;
     font-style: italic;
     border: solid 2px black;
     margin: 5px -20px 0px 0px;
@@ -59,34 +59,60 @@ a {
     text-decoration: none;
 }
 
-a:visited {
-/* */
-}
+/*a:visited {
+ 
+}*/
 
 #reviewbox {
     text-align: center;
 }
 
-table {
-    width: 50%;
+#reviewbox a img {
+    width: 75%;
+    margin: 2% 0 0 10%;
+    border: 5px solid #e86e27;
+    border-radius: 15%;
 }
 
-td {
-    width: 50%;
-}
+/*div.contactform {
 
-table a {
-    width: 50%;
-}
-
-div.contactform {
-
-}
+}*/
 
 #guidesbox {
     text-align: center;
 }
 
-#guidesbox a {
-    
+#guidesbox a img {
+    width: 75%;
+    margin: 5% 0 0 10%;
+    border: 5px solid #e86e27;
+    border-radius: 15%;
+}
+
+#aboutme {
+    margin: 5%;
+    padding: 2%;
+}
+
+#aboutme h1 {
+    text-align: center;
+    font-size: 300%;
+
+}
+
+#aboutme p {
+    margin: 2% 15% 0 15%;
+    padding: 2%;
+    columns: 3;
+    font-size: 125%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+footer {
+    display: flex;
+    background-color: #e86e27;
+    border: 4px solid #4a4a4a;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
