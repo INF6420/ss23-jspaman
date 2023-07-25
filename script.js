@@ -218,3 +218,4 @@ document.addEventListener('submit', function (event) {
     // You could also bolt in an Ajax form submit process here
 
 }, false);
+

@@ -48,7 +48,7 @@ li.genre {
     background-color: #e86e27;
     font-style: italic;
     border: solid 2px black;
-    margin: 5px -20px 0px 0px;
+    margin: auto;
     padding: 13px;
 }
 
@@ -184,39 +184,42 @@ textarea {
     resize: vertical;
 }
 
-/*#contactform {
-    margin: 3em;
-    padding: 1em;
-}
-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 3em;
-    padding: 1em;
-    border: 2px solid #eeba9c;
-    border-radius: 8%;
-}
-label {
-    display: block;
-    font-size: 1.25em;
-    font-weight: 350;
-    text-align: center;
-}
-.input {
-    border: 2px solid #e86e27;
-    border-radius: 8%;
-    width: 90%;
-    padding: 1em;
-    font-size: 14px;
-    font-weight: 300;
-    resize: none;
-}
-[type = "submit"] {
-    display: block;
-    text-align: center;
-    background: #e86e27;
-    color: black;
-    width: 5%;
-    cursor: grabbing;
-}*/
+@media screen and (max-width: 992px) {
+    #genrebox {
+        margin: auto;
+        padding: auto;
+    }
+    #genrelist {
+        font-size: 1em;
+    }
+    li.genre {
+        padding: 15%;
+    }
+    footer h3 {
+        font-size: 1.25em;
+    }
+    #aboutme p {
+        columns: 1;
+        font-size: 1.25em;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    #genrebox {
+        margin: auto;
+        padding: auto;
+    }
+    #genrelist {
+        font-size: .75em;
+    }
+    li.genre {
+        padding: 5%;
+    }
+    footer h3 {
+        font-size: 1em;
+    }
+    #aboutme p {
+        columns: 1;
+        font-size: 1.5em;
+    }
+  }
