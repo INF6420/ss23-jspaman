@@ -48,7 +48,7 @@ li.genre {
     background-color: #e86e27;
     font-style: italic;
     border: solid 2px black;
-    margin: 5px -20px 0px 0px;
+    margin: auto;
     padding: 13px;
 }
 
@@ -58,7 +58,7 @@ li.navlinks {
 }
 
 a {
-    color: #707070;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -68,23 +68,27 @@ a {
 
 #reviewbox {
     text-align: center;
+    width: 65%;
 }
 
 #reviewbox a img {
-    width: 75%;
+    width: 100%;
+    height: auto;
     margin: 2% 0 0 10%;
-    border: 5px solid #e86e27;
+    border: 5px solid #ff8c49;
     border-radius: 15%;
 }
 
 #guidesbox {
     text-align: center;
+    width: 65%;
 }
 
 #guidesbox a img {
-    width: 75%;
+    width: 100%;
+    height: auto;
     margin: 5% 0 0 10%;
-    border: 5px solid #e86e27;
+    border: 5px solid #ff8b48;
     border-radius: 15%;
 }
 
@@ -110,7 +114,7 @@ a {
 footer {
     display: flex;
     flex: auto;
-    background-color: #e7a178;
+    background-color: #ffc9a9;
     margin-top: auto;
     position: fixed;
     bottom: 0;
@@ -122,7 +126,7 @@ footer h3 {
     margin: .6em;
     padding: 1em;
     display: flex;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 a:hover {
     color: black;
